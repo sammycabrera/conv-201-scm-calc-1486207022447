@@ -4,10 +4,10 @@ declared-services:
     label: conversation
     plan: free
 applications:
-- name: watson-assistant-simple
+- name: conv-201-scm-calc
   command: npm start
   path: .
-  memory: 256M
+  memory: 512M
   instances: 1
   services:
   - my-watson-assistant-service
