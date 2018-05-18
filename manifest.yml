@@ -1,13 +1,13 @@
 ---
 declared-services:
-  my-watson-assistant-service:
+  Watson Assistant-Calculator:
     label: conversation
     plan: free
 applications:
 - name: conv-201-scm-calc
   command: npm start
   path: .
-  memory: 512M
+  memory: 256M
   instances: 1
   services:
   - Watson Assistant-Calculator
