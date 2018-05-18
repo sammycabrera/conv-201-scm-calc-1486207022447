@@ -10,6 +10,6 @@ applications:
   memory: 512M
   instances: 1
   services:
-  - my-watson-assistant-service
+  - Watson Assistant-Calculator
   env:
     NPM_CONFIG_PRODUCTION: false
